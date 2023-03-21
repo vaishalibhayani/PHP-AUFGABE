@@ -1,0 +1,40 @@
+<style>
+input[type=number], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #0a3cef;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  width: 20%;
+}
+
+div,h1 {
+  border-radius: 5px;
+  background-color: #52d5f2;
+  padding: 20px;
+}
+
+h1 {
+    border-radius: 5px;
+    background-color: #edf252;
+    padding: 20px;
+    text-align: center;
+  }
+</style>

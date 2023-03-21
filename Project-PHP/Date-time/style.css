@@ -1,0 +1,38 @@
+body
+{
+    background-color: coral;
+}
+
+.card-header-bg
+{
+    color: rgb(146, 127, 255);
+    background-color:rgb(190, 178, 254);
+    color: black;
+}
+.card-body
+{
+    background-color: aquamarine;
+}
+.card-body-bg
+{
+    background-color: rgb(246, 188, 194);
+}
+.card-body-bg-bg
+{
+    background-color: rgb(181, 225, 243);
+}
+.card-body-bg-bg-bg
+{
+    background-color: rgb(246, 244, 178);
+}
+.card-body-bgg
+{
+    background-color:rgb(247, 172, 205) ;
+}
+h4{
+    text-align: center;
+    color: brown;
+}
+h5{
+    text-align: center;
+}

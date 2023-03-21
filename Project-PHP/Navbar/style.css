@@ -1,0 +1,58 @@
+html, body {
+    font-family: "Gill Sans Extrabold";
+    background-color: rgb(123, 131, 151);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    
+    
+    padding: 1.1rem 5rem;
+    background: linear-gradient(180deg, #05407f 0%, #09325e 100%);
+}
+
+.brand a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+li > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 50;
+}
+
+
+li::after {
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover::after {
+    width: 2rem;
+}
